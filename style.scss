@@ -1,0 +1,112 @@
+// Styles
+
+$color1: #18c9e5;
+$color2: #9fdb45;
+$color3: #213c44;
+  
+
+
+
+body{
+  height: 99%;
+  width: 99vw;
+  margin: auto;
+  background: linear-gradient($color1, $color2);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), to($color2));
+  background: -webkit-linear-gradient(top, $color1, $color2);
+  background: -moz-linear-gradient(top, $color1, $color2);
+  background: -ms-linear-gradient(top, $color1, $color2);
+  background: -o-linear-gradient(top, $color1, $color2);
+  background: linear-gradient(top, $color1, $color2);
+}
+
+.container{
+  height: 99%;
+  width: 99%;
+  background: white;
+  margin-left: 5px;
+}
+
+#header{
+  border-color: $color3;
+  padding: 80px 300px 0px;
+  text-align: center;
+}
+
+hr{
+  border-color: inherit;
+}
+
+#subheader{
+  border-style: solid;
+  border-color: blue;
+}
+
+#audiences{
+  border-style: solid;
+  border-color: blue;
+}
+
+#videosection{
+  padding: 40px 215px 0px;
+}
+
+#ytplayer{
+  background: linear-gradient($color1, $color2);
+  height: 580px;
+  width: 830px;
+  margin-bottom: 20px; 
+}
+
+.iframe{
+  padding: 100px 0px 100px 15px; 
+}
+
+
+.lp-countdown{
+ text-align: center;
+ color: $color3;
+ padding-bottom: 120px;
+
+
+.lp-countdown-block{
+  float: left;
+  margin-right: 17px;
+  width: 70px;
+  height: 60px;
+  padding-top: 15px;
+}
+  
+.lp-countdown-counter{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.lp-countdown-label{
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+&.box{
+  .lp-countdown-block{
+    border: 2px solid $color3;
+  }
+}
+
+.lp-countdown-label{
+    margin-top: 0;
+  }
+}
+
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
