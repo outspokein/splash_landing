@@ -53,12 +53,8 @@ body {
   margin-top: 0;
   margin-bottom: 2.5em;
   font-size: 2.2em;
-  /* font-style: italic; */
-  /* text-transform: uppercase; */
   font-weight: 300;
   line-height: 1.3em;
-  /* letter-spacing: 0.00em; */
-  /* text-align: center; */
   color: #44cfb2; }
 .textbox p {
   margin-top: 0;
@@ -80,25 +76,25 @@ body {
 
 .lp-countdown {
   text-align: center;
-  color: #213c44;
   padding-bottom: 120px; }
   .lp-countdown .lp-countdown-block {
     float: left;
     margin-right: 17px;
-    width: 70px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     padding-top: 15px; }
   .lp-countdown .lp-countdown-counter {
     font-size: 30px;
-    font-weight: bold;
-    line-height: 1; }
+    font-weight: 400;
+    line-height: 1em;
+    color: #213c44; }
   .lp-countdown .lp-countdown-label {
     font-size: 14px;
-    margin-top: 2px; }
+    font-weight: 300;
+    margin-top: 3px;
+    color: #213c44; }
   .lp-countdown.box .lp-countdown-block {
-    border: 2px solid #213c44; }
-  .lp-countdown .lp-countdown-label {
-    margin-top: 0; }
+    border: 1px solid; }
 
 .button {
   background-color: #4CAF50;

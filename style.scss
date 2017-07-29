@@ -155,40 +155,41 @@ body{
     color: $color3;
   }
 }
+
 .lp-countdown{
- text-align: center;
- color: $color3;
- padding-bottom: 120px;
 
+  text-align: center;
+  padding-bottom: 120px;
 
-.lp-countdown-block{
-  float: left;
-  margin-right: 17px;
-  width: 70px;
-  height: 60px;
-  padding-top: 15px;
-}
-  
-.lp-countdown-counter{
-  font-size: 30px;
-  font-weight: bold;
-  line-height: 1;
-}
-
-.lp-countdown-label{
-  font-size: 14px;
-  margin-top: 2px;
-}
-
-&.box{
   .lp-countdown-block{
-    border: 2px solid $color3;
+    float: left;
+    margin-right: 17px;
+    width: 80px;
+    height: 80px;
+    padding-top: 15px;
   }
-}
+  
+  .lp-countdown-counter{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1em;
+    color: $color3;
+  }
 
-.lp-countdown-label{
-    margin-top: 0;
+  .lp-countdown-label{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 3px;
+    color: $color3;
+    
   }
+
+  &.box{
+    .lp-countdown-block{
+      border: 1px solid;
+    }
+  }
+
 }
 
 .button{
