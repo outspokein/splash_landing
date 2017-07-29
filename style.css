@@ -27,11 +27,11 @@ body {
   #header div {
     margin-top: 100px;
     margin-bottom: 50px; }
-  #header img {
-    width: 90%; }
-  #header hr {
-    border-color: inherit;
-    width: 90%; }
+  #header img, #header hr {
+    width: 90%;
+    max-width: 430px;
+    min-width: 250px;
+    border-color: inherit; }
   #header #tagline {
     font-weight: 100;
     font-size: 1em;

@@ -59,13 +59,11 @@ body{
     margin-bottom: 50px;
   }
   
-  img{
+ img, hr{
     width: 90%;
-  }
-
-  hr{
-  border-color: inherit;
-  width: 90%;
+    max-width: 430px;
+    min-width: 250px;
+    border-color: inherit;
   }
 
   #tagline{
