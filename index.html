@@ -2,44 +2,61 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  
   <!-- <link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="images/outspokein_fabicon.png">
   <script type="text/javascript" src="script.js"></script>
   <title>Outspoke.in</title>
 </head>
 <body>
-  <div class="container">
-    
+  <div class="container-fluid">
+     
     <div class="row">
       
       <div class="col-12" id="header">
-        <img class="logo" src="images/outspokein_logo.png">
-          <hr/>
-            <h3 id="tagline">DISCOVER TOMORROW'S THOUGHT LEADERS TODAY</h3>
+        <div class="col-xs-10 col-md-6 col-xs-offset-1 col-md-offset-3 ">
+          <img  src="images/outspokein_logo.png">
+            <hr/>
+              <h3 id="tagline">DISCOVER TOMORROW'S THOUGHT LEADERS TODAY</h3>
+        </div>
       </div>
-      
-      <div class="col-12" id="subheader">
-        <p>We're creating a talent search engine that will allow speakers the ability to showcase themselves while providing robust search capabilities for curators. </p>
+    </div>
+
+    <div class="row">  
+      <div class="col-md-8 col-md-offset-2 textbox" id="subheader">
+        <h2>We're creating a talent search engine that will allow speakers the ability to showcase themselves while providing robust search capabilities for curators. </h2>
       </div>
 
-      <div class="col-12" id="audiences">
+      <div class="col-md-8 col-md-offset-2 textbox" id="audiences">
         <h1>Organizers</h1>
         <p>It's an open market where you can discover and vet potential speakers and panelists. Most importantly, we're optimized for those socially conscious curators who are passionate about diversity and inclusion.</p>
       </div>
 
-      <div class="col-12" id="audiences">
+      <div class="col-md-8 col-md-offset-2 textbox" id="audiences">
         <h1>Speakers</h1>
         <p>It's a space to showcase who you are and the topics that interest you most. We also want to nurture the next generation of thought leaders, so we're gathering resources to help you unlock your true potential.</p>
       </div>
+    </div>
 
-      <div class="col-12" id="videosection">
-        <div id="ytplayer">
-          <iframe class="iframe" type="text/html" width="800" height="550"
-          src="https://www.youtube.com/embed/MXKEccRiMeQ?rel=0&modestbranding=0&showinfo=0&autohide=1" frameborder="0"></iframe>
+    <div class="row">  
+        <div class="col-md-8 col-md-offset-2" id="videosection">
+          <div class="embed-responsive embed-responsive-16by9" id="ytplayer">
+              <iframe class="embed-responsive-item"
+              src="https://www.youtube.com/embed/MXKEccRiMeQ" allowfullscreen>
+              </iframe>
+          </div>
         </div>
-          <div class="col-6">
-            <div class="lp-countdown lp-countdown box">
+    </div>
+
+
+    <div class="row">  
+        <div class="col-md-8 col-md-offset-2" id="countdown">
+          <h1>BACK US NOW</h1>
+          <div class="lp-countdown lp-countdown box">
               <div class="lp-countdown-block">
                 <div class="lp-countdown-counter" id="days">105</div>
                 <div class="lp-countdown-label">DAYS</div>
@@ -56,19 +73,15 @@
                 <div class="lp-countdown-counter" id="seconds">25</div>
                 <div class="lp-countdown-label">SECONDS</div>
               </div>
-              <div>
-                <button class="button">
-                  <a href="https://www.google.com/" target="_blank">Kickstarter</a> 
-                </button>
-              </div>
-            </div>
+              <button class="button">
+                <a href="https://www.google.com/" target="_blank">Kickstarter</a> 
+              </button>
           </div>
-        </div>
-
-
+        </div> 
+        <!-- end of countdown col-6 -->
     </div>
-
-
+    <!-- end of row -->
   </div>
+  <!-- end of container -->
 </body>
 </html>

@@ -8,61 +8,153 @@ $color3: #213c44;
 
 
 body{
-  height: 99%;
-  width: 99vw;
-  margin: auto;
-  background: linear-gradient($color1, $color2);
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), to($color2));
-  background: -webkit-linear-gradient(top, $color1, $color2);
-  background: -moz-linear-gradient(top, $color1, $color2);
-  background: -ms-linear-gradient(top, $color1, $color2);
-  background: -o-linear-gradient(top, $color1, $color2);
-  background: linear-gradient(top, $color1, $color2);
+  // height: 100%;
+  // width: 100vw;
+
+  // margin: 0;
+  // background: linear-gradient($color1, $color2);
+  // background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), to($color2));
+  // background: -webkit-linear-gradient(top, $color1, $color2);
+  // background: -moz-linear-gradient(top, $color1, $color2);
+  // background: -ms-linear-gradient(top, $color1, $color2);
+  // background: -o-linear-gradient(top, $color1, $color2);
+  // background: linear-gradient(top, $color1, $color2);
+
+  font-family: 'Roboto', sans-serif;
+  color: #676767;
 }
 
-.container{
-  height: 99%;
-  width: 99%;
-  background: white;
-  margin-left: 5px;
+.container-fluid{
+
+  // making gradient border
+   height: 100%;
+   width: 100%;
+   padding: 0 26px;
+
+  border-top: 13px solid $color1;
+  border-bottom: 13px solid $color2;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: 13px 100%;
+  -moz-background-size: 13px 100%;
+  background-size: 13px 100%;
+
+  background-image: -webkit-linear-gradient(top, $color1 0%, $color2 100%), -webkit-linear-gradient(top, $color1 0%, $color2 100%);
+  background-image: -moz-linear-gradient(top, $color1 0%, $color2 100%), -moz-linear-gradient(top, $color1 0%, $color2 100%);
+  background-image: -o-linear-gradient(top, $color1 0%, $color2 100%), -o-linear-gradient(top, $color1 0%, $color2 100%);
+  background-image: linear-gradient(to bottom, $color1 0%, $color2 100%), linear-gradient(to bottom, $color1 0%, $color2 100%);
 }
+
+
 
 #header{
   border-color: $color3;
-  padding: 80px 300px 0px;
   text-align: center;
+  
+  div{
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  img{
+    width: 90%;
+  }
+
+  hr{
+  border-color: inherit;
+  width: 90%;
+  }
+
+  #tagline{
+    font-weight: 100;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
 }
 
-hr{
-  border-color: inherit;
-}
+
 
 #subheader{
-  border-style: solid;
-  border-color: blue;
+  // border-style: solid;
+  // border-color: blue;
 }
 
 #audiences{
-  border-style: solid;
-  border-color: blue;
+  // border-style: solid;
+  // border-color: blue;
 }
 
 #videosection{
-  padding: 40px 215px 0px;
+  // padding: 40px 215px 0px;
+  // padding: 0 auto;
+  margin-top: 30px;
 }
 
 #ytplayer{
-  background: linear-gradient($color1, $color2);
-  height: 580px;
-  width: 830px;
-  margin-bottom: 20px; 
+  // background: linear-gradient($color1, $color2);
+  // height: 580px;
+  // width: 830px;
+  // margin-bottom: 20px; 
+
+  // background-color: red;
 }
 
+.textbox {
+  h1{
+    margin-top: 0;
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: $color3;
+  }
+
+
+
+  h2{
+    margin-top: 0;
+    margin-bottom: 2.5em;
+    font-size: 2.2em;
+    font-weight: 300;
+    line-height: 1.3em;
+    // padding: 0 1.6em;
+    color: #44cfb2;
+  }
+
+
+  p{
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-style: normal;
+  }
+
+
+}
 .iframe{
-  padding: 100px 0px 100px 15px; 
+  // padding: 100px 0px 100px 15px; 
 }
 
-
+#countdown{
+  h1{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: $color3;
+  }
+}
 .lp-countdown{
  text-align: center;
  color: $color3;
