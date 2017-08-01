@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto";
   color: #676767; }
 
 .container-fluid {
@@ -26,7 +26,7 @@ body {
   text-align: center; }
   #header div {
     margin-top: 100px;
-    margin-bottom: 50px; }
+    margin-bottom: 30px; }
   #header img, #header hr {
     width: 90%;
     max-width: 430px;
@@ -76,7 +76,7 @@ body {
 
 .lp-countdown {
   text-align: center;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
   width: 100%;
   height: 80px; }
   .lp-countdown .lp-countdown-block {
@@ -97,7 +97,7 @@ body {
     margin-top: 3px;
     color: #213c44; }
   .lp-countdown .button {
-    height: 60px;
+    height: 50px;
     float: right;
     background-color: #44cfb2;
     border: none;
@@ -112,5 +112,35 @@ body {
     .lp-countdown .button a {
       color: white;
       text-decoration: none; }
+
+label h1 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #213c44; }
+
+.form-field {
+  border-radius: 0;
+  border-color: #213c44;
+  font-family: "Roboto"; }
+
+.btn {
+  float: right;
+  margin-right: 42px;
+  margin-top: -34px;
+  color: white;
+  background-color: #44cfb2;
+  border: none;
+  display: inline-block;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 400;
+  border-radius: 0; }
+
+#mc_embed_signup {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=style.css.map */
