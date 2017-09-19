@@ -51,7 +51,7 @@ body {
   color: #213c44; }
 .textbox h2 {
   margin-top: 0;
-  margin-bottom: 2.5em;
+  margin-bottom: 1.5em;
   font-size: 2.2em;
   font-weight: 300;
   line-height: 1.3em;
@@ -79,6 +79,9 @@ body {
   margin-bottom: 20px;
   width: 100%;
   height: 80px; }
+  @media (max-width: 46.24em) {
+    .lp-countdown {
+      margin-left: 35px; } }
   .lp-countdown .lp-countdown-block {
     float: left;
     margin-right: 17px;
@@ -96,6 +99,9 @@ body {
     font-weight: 300;
     margin-top: 3px;
     color: #213c44; }
+  @media (max-width: 46.24em) {
+    .lp-countdown .seconds1 {
+      display: none; } }
   .lp-countdown .button {
     height: 50px;
     float: right;
@@ -112,6 +118,10 @@ body {
     .lp-countdown .button a {
       color: white;
       text-decoration: none; }
+    @media (max-width: 46.24em) {
+      .lp-countdown .button {
+        float: none;
+        margin-right: 70px; } }
 
 label h1 {
   text-transform: uppercase;
@@ -120,10 +130,17 @@ label h1 {
   letter-spacing: 0.1em;
   color: #213c44; }
 
+@media (max-width: 46.24em) {
+  #mc_embed_signup {
+    margin-top: 45px; } }
+
 .form-field {
   border-radius: 0;
   border-color: #213c44;
   font-family: "Roboto"; }
+  @media (min-width: 20em) and (max-width: 61.24em) {
+    .form-field {
+      margin-top: 5px; } }
 
 .btn {
   float: right;
@@ -139,6 +156,10 @@ label h1 {
   font-size: 1em;
   font-weight: 400;
   border-radius: 0; }
+  @media (min-width: 20em) and (max-width: 61.24em) {
+    .btn {
+      margin-top: 5px;
+      float: none; } }
 
 #mc_embed_signup {
   margin-bottom: 30px; }
