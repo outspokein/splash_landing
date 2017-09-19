@@ -9,7 +9,6 @@ $font1: 'Roboto';
   
 // Media Breakpoints Mixins
 @import '_mq.scss';
-// @include mq($range, $breakpoint-1 [, $breakpoint-2]){ @content };
 
 
 body{
@@ -69,7 +68,7 @@ body{
   margin-top: 30px;
 }
 
-.textbox {
+.textbox{
   h1{
     margin-top: 0;
     margin-bottom: 0.7em;
@@ -113,15 +112,10 @@ body{
 }
 
 .lp-countdown{
-
   text-align: center;
   margin-bottom: 20px;
   width: 100%;
   height: 80px;
-
-  @include mq($until: tablet){
-    margin-left: 35px;
-  }
 
   .lp-countdown-block{
     float: left;
@@ -130,6 +124,10 @@ body{
     height: 100%;
     padding-top: 15px;
     border: 1px solid;
+    
+    @include mq($until: tablet){
+    margin-right: 15px;
+    }
   }
   
   .lp-countdown-counter{
@@ -172,10 +170,9 @@ body{
     }
     
     @include mq($until: tablet){
-      float: none;
+      // float: none;
       margin-right: 70px;
     }
-
   }
 }
 
@@ -191,8 +188,8 @@ label{
 }
 
 #mc_embed_signup{
-  @include mq($until: tablet){
-    margin-top: 45px;
+  @include mq($until: desktop){
+    margin-top: 10px;
   }
 }
 
@@ -203,13 +200,13 @@ label{
 
   @include mq($from: mobile, $until: desktop){
     margin-top: 5px;
-    // float: none;
+    float: none;
   }
 }
 
-.btn {
+.btn{
   float: right;
-  margin-right: 42px;
+  margin-right: 1px;
   margin-top: -34px;
   color: white;
   background-color: $color5;
@@ -222,14 +219,14 @@ label{
   font-weight: 400;
   border-radius: 0;
 
-  @include mq($from: mobile, $until: desktop){
+  @include mq($from: mobile, $until: tablet){
     margin-top: 5px;
     float: none;
   }
 }
 
 #mc_embed_signup{
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 

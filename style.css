@@ -79,9 +79,6 @@ body {
   margin-bottom: 20px;
   width: 100%;
   height: 80px; }
-  @media (max-width: 46.24em) {
-    .lp-countdown {
-      margin-left: 35px; } }
   .lp-countdown .lp-countdown-block {
     float: left;
     margin-right: 17px;
@@ -89,6 +86,9 @@ body {
     height: 100%;
     padding-top: 15px;
     border: 1px solid; }
+    @media (max-width: 46.24em) {
+      .lp-countdown .lp-countdown-block {
+        margin-right: 15px; } }
   .lp-countdown .lp-countdown-counter {
     font-size: 30px;
     font-weight: 400;
@@ -120,7 +120,6 @@ body {
       text-decoration: none; }
     @media (max-width: 46.24em) {
       .lp-countdown .button {
-        float: none;
         margin-right: 70px; } }
 
 label h1 {
@@ -130,9 +129,9 @@ label h1 {
   letter-spacing: 0.1em;
   color: #213c44; }
 
-@media (max-width: 46.24em) {
+@media (max-width: 61.24em) {
   #mc_embed_signup {
-    margin-top: 45px; } }
+    margin-top: 10px; } }
 
 .form-field {
   border-radius: 0;
@@ -140,11 +139,12 @@ label h1 {
   font-family: "Roboto"; }
   @media (min-width: 20em) and (max-width: 61.24em) {
     .form-field {
-      margin-top: 5px; } }
+      margin-top: 5px;
+      float: none; } }
 
 .btn {
   float: right;
-  margin-right: 42px;
+  margin-right: 1px;
   margin-top: -34px;
   color: white;
   background-color: #44cfb2;
@@ -156,12 +156,12 @@ label h1 {
   font-size: 1em;
   font-weight: 400;
   border-radius: 0; }
-  @media (min-width: 20em) and (max-width: 61.24em) {
+  @media (min-width: 20em) and (max-width: 46.24em) {
     .btn {
       margin-top: 5px;
       float: none; } }
 
 #mc_embed_signup {
-  margin-bottom: 30px; }
+  margin-bottom: 25px; }
 
 /*# sourceMappingURL=style.css.map */
